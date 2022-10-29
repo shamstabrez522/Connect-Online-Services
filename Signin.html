@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Signin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" href="logo2.png">
+    <style>
+        body {
+            font-size: 20px;
+            text-align: center;
+            background-image: url('con3.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <img src="logo.png" style="padding-top: 30%;">
+            </div>  
+            <div class="col-md-3"></div> 
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="jumbotron" style="background-color: rgba(255, 255, 255, 0); color: aliceblue; padding-top: 5%;">
+                    <div class="form-group">
+                        <label for="email">UserId</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="user@mail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label><br>
+                        <input type="password" checked="form-control" id="password" name="password" placeholder="!A2$%^Fdg">
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" name="remmeber">Remmeber Me</label>
+                    </div>
+                    <div>
+                        <button onclick="window.open('Main.html')" 
+                            style="background-color: rgba(213, 251, 234, 0.019); border-radius: 100%;">SignIn</button>
+                        <button onclick="window.open('SignUp.html')" 
+                            style="background-color: rgba(213, 251, 234, 0.019); border-radius: 100%;">SignUp</button>
+                        <input type="reset" name="Reset" value="Reset"
+                            style="background-color: rgba(213, 251, 234, 0.019); border-radius: 100%;"><br>
+                        <h6 style="font-size: 70%;"><a href="Forgot.html" target="_blank">Forgot Password</a></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</body>
+
+</html>

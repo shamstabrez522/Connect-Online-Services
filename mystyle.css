@@ -1,0 +1,20 @@
+body{
+    background-image: url(bag.jpg) ;
+    background-attachment: fixed;
+    background-size: 1490px 750px;
+    background-repeat: no-repeat;
+}
+#head{
+    color: #FAF4B7;
+    font-size: 70px;
+    text-shadow:5px 5px #000000;
+    font-family:Brush Script MT, Brush Script Std, cursive ;
+}
+.t1{
+    text-align: left;
+    color: white;
+}
+.t3{
+    text-align: right;
+    color: white;
+}

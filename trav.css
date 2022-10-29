@@ -1,0 +1,44 @@
+.head{
+    color: white;
+    font-family: Impact, fantasy;
+    text-shadow: 5px 5px black;
+    font-size: 70px;
+    text-align: center;
+    
+}
+body{
+    background-image: url("a2.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.carousel-caption{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    color: #000;
+}
+.social{
+    align-items: left;
+    flex-direction: row;
+}
+span{
+    color: white;
+}
+#t1{
+    color:#fabd02;
+    font-family:cursive;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px black;
+    font-size: 70px;
+}
+#t2{
+    color: black;
+    text-shadow: 2px 2px rgb(47, 46, 46);
+}
+.b1{
+    color: rgb(255, 255, 255);
+}
+#crsl{
+    text-align: center;
+}
